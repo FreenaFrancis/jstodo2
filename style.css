@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: bisque;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+    padding: 15px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+}
+
+#text-input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#add-button {
+    padding: 7px 9px;
+    background-color: black;
+    color: white;
+}
+
+.todos-container {
+    overflow-y: scroll;
+}
+
+.todo-item-container {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#todo-text {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    user-select: none;
+}
+
+/* to add a line-through style for completed todos */
+.line-through {
+    text-decoration: line-through;
+    color: blue;
+}
+
+#edit-button, #delete-button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    
+}
